@@ -1,7 +1,0 @@
-with open('C:/Users/Statie_3_100/Desktop/Lista Clasei 11D.txt','r',encoding='utf-8') as f:
-    x=f.read()
-    f.close()
-x=x.split("\n")
-print("    Nume        Prenume         Nota    Grupa")
-for i in range(len(x)):
-    print(i+1,".",x[i])
